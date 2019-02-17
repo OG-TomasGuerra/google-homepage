@@ -1,70 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Google</title>
-    <link rel="stylesheet" type="text/css" href="style.css>
-  </head>
-  <body>
-    <div id="container">
-        <ul class="nav">
-            <li><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li ><a href="#"><div class= "ap" ></div></a></li>
-            <li><button class="si">Sign in</button></li>
 
-        </ul>
+<head>
+    <meta name="author" content="Tomás Guerra">
+    <link rel="tab icon" href="https://www.google.ca/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Google Homepage</title>
+</head>
 
-        <div class="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+<body>
+    <div class="container">
+        <header>
+            <div id="left-header">
+                <a href="#">Acerca de:</a>
+                <a href="#">Tienda</a>
+            </div>
+            <div id="right-header">
+                <a href="#">Gmail</a>
+                <a href="#">Imagenes</a>
+                <a href="#">
+                    <i class="material-icons" id="googleApps">apps</i>
+                </a>
+                <a href="#">
+                    <img id="googleAlert"
+                        src="https://img.icons8.com/material-rounded/30/000000/appointment-reminders.png">
+                </a>
+                <a href="#">
+                    <img id="userHeadshot"
+                        src="https://lh3.googleusercontent.com/-9p7zVg5R7q4/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rd3m-BbpgVdmP2_TDQl-o1WB9AcnQ/s32-c-mo/photo.jpg">
+                </a>
+            </div>
+        </header>
+        <div class="main">
+            <div class ="logo">
+                <img alt="Google" id="googleLogo"
+                    src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+            <form>
+                <div id="searchbox">
+                    <input type="text">
+                    <input type="image" id="googleMic"
+                        src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Buscar con Google">
+                    <input type="submit" value="Me siento con suerte">
+                </div>
+                <p>
+                    Google ofrecido en: <button id="en">Ingles</button>
+                </p>
+            </form>
         </div>
-        <div >
-                     <input class="search" type="text">
-        </div>  
-        <div class="btn">
-          <button class="buttons">Google search</button>
-
-          <button class="buttons">I'm feeling lucky</button>
-        </div>     
-        <div class="languages">
-
-          <ul>
-            <li>Google offered in:</li>
-            <li><a href="#"> हिन्दी</a></li>
-            <li><a href="#">  বাংলা</a></li>
-            <li><a href="#">తెలుగు </a></li>
-            <li><a href="#">मराठी </a></li>
-            <li><a href="#">தமிழ் </a></li>
-            <li><a href="#">ગુજરાતી </a></li>
-            <li><a href="#">ಕನ್ನಡ </a></li>
-            <li><a href="#">മലയാളം </a></li>
-            <li><a href="#">ਪੰਜਾਬੀ</a></li>
-
-
-          </ul>
-        </div>
-       <div class="bottombars"> 
-          <div class="bottombar1">
-            <p>India</p>
-          </div>
-          <div class="bottombar2">
-            <ul>
-              <span id="left">
-              <li><a href="#">Advertising</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">About</a></li>
-            </span>
-            
-            <span id="right">
-
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Settings</a></li>
-            </span>
-
-            </ul>
-        </div>
-      </div>
+        <footer>
+            <div class="main-footer">
+                <p>Argentina</p>
+            </div>
+            <section class="sub-footer">
+                <div id=left-footer>
+                    <a href="#">Publicidad</a>
+                    <a href="#">Empresas</a>
+                </div>
+                <div id=right-footer>
+                    <a href="#">Privacidad</a>
+                    <a href="#">Terminos</a>
+                    <a href="#">Preferencias</a>
+                </div>
+            </section>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
